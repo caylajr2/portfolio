@@ -1,0 +1,16 @@
+.portfolio-content {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.portfolio-content img {
+  width: 5%;
+  height: 5%;
+  object-fit: contain; 
+  flex-shrink: 0;
+}
+
+.portfolio-content p {
+  margin: 0;
+}
