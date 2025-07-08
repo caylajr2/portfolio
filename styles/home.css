@@ -1,0 +1,6 @@
+img {
+    margin: 2% auto;
+    width: 40%;
+    display: block;
+    object-fit: contain; 
+}

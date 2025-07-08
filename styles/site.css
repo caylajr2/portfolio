@@ -1,0 +1,43 @@
+header {
+  text-align: center;
+}
+
+nav {
+  padding: 2% 20%;
+  background-color: rgb(254, 174, 174);
+}
+nav ul {
+  margin: 0 auto;
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+  font-size: 2em;
+  text-align: center;
+}
+
+main {
+    width: 90%;
+    margin: 2% auto;
+}
+
+footer {
+    background-color: rgb(254, 174, 174);
+    padding: 2%;
+}
+
+footer ul {
+    text-align: center;
+    list-style: none;
+}
+
+footer li {
+    margin: 2% auto;
+
+}
