@@ -10,8 +10,10 @@
 }
 
 .portfolio-content img {
-  width: 7%;
-  height: 7%;
+  min-width: 80px;
+  min-height: 80px;
+  width: 9%;
+  height: 9%;
   object-fit: contain; 
   flex-shrink: 0;
 }
@@ -24,4 +26,10 @@
   background-color: rgb(232, 232, 232);
   padding: 2%;
   margin: 2% auto;
+}
+
+@media (max-width: 600px) {
+  .portfolio-content img {
+  display: none;
+}
 }

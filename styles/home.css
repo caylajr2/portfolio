@@ -4,3 +4,12 @@ img {
     display: block;
     object-fit: contain; 
 }
+
+@media (max-width: 600px) {
+img {
+    margin: 2% auto;
+    width: 80%;
+    display: block;
+    object-fit: contain; 
+}
+}
